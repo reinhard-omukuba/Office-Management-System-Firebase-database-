@@ -15,15 +15,23 @@
 
         <div class="card signupSec">
             <h3>Office Management</h3>
-            <input type="text" class="form-control"  placeholder="Enter your name">
-            <input type="text" class="form-control"  placeholder="Enter your phone number">
-            <input type="email" class="form-control"  placeholder="Enter your email">
-            <input type="password" class="form-control"  placeholder="Enter your password">
-            <button class="btn btn-primary">Sign In</button>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+            <input type="email" class="form-control" id="email"  placeholder="Enter your email">
+            <input type="password" class="form-control" id="password"  placeholder="Enter your password">
+            <button class="btn btn-primary" id="signup">Sign Up</button>
             <a href="index.html">Have an account? sign in</a>
         </div>
 
     </section>
     
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/register.js"></script>
 </body>
 </html>
