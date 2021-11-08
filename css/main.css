@@ -112,3 +112,14 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+
+
+.profileCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myProfilePage{
+    text-align: center;
+}
