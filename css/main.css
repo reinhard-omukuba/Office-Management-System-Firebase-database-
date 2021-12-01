@@ -123,3 +123,11 @@
 .myProfilePage{
     text-align: center;
 }
+
+.active{
+    background-color: royalblue;
+    width: fit-content;
+    padding-right: 10px;
+    border-radius: 5px;
+    height: fit-content;
+}
